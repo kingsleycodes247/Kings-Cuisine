@@ -33,10 +33,10 @@ def book_table(request):
                 f'Reservation from {name}',
                 full_message,
                 settings.DEFAULT_FROM_EMAIL,
-                ['yourname@gmail.com'],  # Replace with your recipient email
+                ['kingsleycodes247@gmail.com'], 
                 fail_silently=False,
             )
-            # Correct redirect with fragment and query
+           
             return redirect(reverse('home') + '#book-a-table?sent=1')
     return redirect(reverse('home') + '#book-a-table')
 
@@ -54,7 +54,7 @@ def contact(request):
                 f'{subject} from {name}',
                 full_message,
                 settings.DEFAULT_FROM_EMAIL,
-                ['yourname@gmail.com'],  # Replace with your recipient email
+                ['kingsleycodes247@gmail.com'], 
                 fail_silently=False,
             )
             # Correct redirect with fragment and query

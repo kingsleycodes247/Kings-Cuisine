@@ -6,12 +6,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>King's Cuisine - Index</title>
+  <title>King's Cuisine - Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/logo.png' %}" rel="icon">
   <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -46,7 +46,7 @@
 
       <a href="{% url 'home' %}" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <!-- <img src="{% static 'img/logo.png' %}" alt="logo"> -->
         <h1>King's Cuisine<span>.</span></h1>
       </a>
 
@@ -58,7 +58,7 @@
           <li><a href="#events">Events</a></li>
           <li><a href="#chefs">Chefs</a></li>
           <li><a href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+         <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
@@ -71,7 +71,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav><!-- .navbar -->
@@ -88,11 +88,11 @@
     <div class="container">
       <div class="row justify-content-between gy-5">
         <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-          <h2 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+          <h2 data-aos="fade-up">Savor Exquisite Flavors<br>at King's Cuisine</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Indulge in a culinary experience where every dish is crafted with passion and precision. From vibrant, healthy options to rich, delectable delights—your perfect meal awaits.</p>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="https://youtu.be/T74SDvy_HLY?si=wHfAWLDpnuY1-1Tw" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
@@ -110,35 +110,29 @@
 
         <div class="section-header">
           <h2>About Us</h2>
-          <p>Learn More <span>About Us</span></p>
+          <p>Learn more about <span>King's Cuisine</span></p>
         </div>
 
         <div class="row gy-4">
           <div class="col-lg-7 position-relative about-img" style="background-image: url(static/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
               <h4>Book a Table</h4>
-              <p>+1 5589 55488 55</p>
+              <p>+33 0658 4219 33</p>
             </div>
           </div>
           <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
             <div class="content ps-0 ps-lg-5">
-              <p class="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
-              </p>
+                <p class="fst-italic">At King's Cuisine, we blend tradition with innovation to bring you an unforgettable dining experience rooted in passion and hospitality.</p>
               <ul>
-                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                <li><i class="bi bi-check2-all"></i> Exceptional dishes made with the finest, freshest ingredients.</li>
+                <li><i class="bi bi-check2-all"></i> A warm, inviting atmosphere perfect for every occasion.</li>
+                <li><i class="bi bi-check2-all"></i> Dedicated service that makes you feel like royalty from the moment you arrive.</li>
               </ul>
-              <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
-              </p>
+              <p>Our commitment to culinary excellence and genuine care shines through in every bite. Join us to taste the difference that dedication makes.</p>
 
               <div class="position-relative mt-4">
                 <img src="static/img/about-2.jpg" class="img-fluid" alt="">
-                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+                <a href="https://youtu.be/XyRZgKd5shs?si=_hraPljgIPZkjZTt" class="glightbox play-btn"></a>
               </div>
             </div>
           </div>
@@ -156,10 +150,8 @@
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="why-box">
               <h3>Why Choose King's Cuisine?</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-              </p>
+              <p>At King's Cuisine, we’re more than a meal—we’re a destination. Our dedication to extraordinary flavors, 
+                impeccable service, and a welcoming ambiance sets us apart as your premier dining choice.</p>
               <div class="text-center">
                 <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
               </div>
@@ -172,24 +164,24 @@
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-clipboard-data"></i>
-                  <h4>Corporis voluptates officia eiusmod</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                  <h4>Unmatched Culinary Craftsmanship</h4>
+                  <p>Every dish is a masterpiece, prepared with premium ingredients and a touch of regal flair.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-gem"></i>
-                  <h4>Ullamco laboris ladore pan</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                  <h4>Elevated Dining Experience</h4>
+                  <p>From intimate dinners to festive gatherings, our elegant setting enhances every moment.</p>
                 </div>
               </div><!-- End Icon Box -->
 
               <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
                 <div class="icon-box d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-inboxes"></i>
-                  <h4>Labore consequatur incidid dolore</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                  <h4>Service Fit for Royalty</h4>
+                  <p>Our attentive team ensures your visit is seamless, memorable, and truly special.</p>
                 </div>
               </div><!-- End Icon Box -->
 
@@ -246,7 +238,7 @@
 
         <div class="section-header">
           <h2>Our Menu</h2>
-          <p>Check Our <span>King's Cuisine Menu</span></p>
+          <p>Explore Our <span>Royal Feast</span></p>
         </div>
 
         <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -289,67 +281,67 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-1.png" class="glightbox"><img src="static/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <h4>Golden Truffle Risotto</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Creamy Arborio rice, wild mushrooms, truffle oil, Parmesan
                 </p>
                 <p class="price">
-                  $5.95
+                  €18.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <h4>Regal Grilled Salmon</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Fresh Atlantic salmon, lemon herb glaze, roasted vegetables
                 </p>
                 <p class="price">
-                  $14.95
+                  €24.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <h4>Crab Cake Bites</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Lump crab, citrus aioli, microgreens, roasted red pepper coulis
                 </p>
                 <p class="price">
-                  $8.95
+                  €12.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Golden Truffle Bruschetta</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Toasted artisan bread, truffle cream, heirloom tomatoes, fresh basil
                 </p>
                 <p class="price">
-                  $12.95
+                  €8.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Spiced Butternut Squash Soup</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Roasted squash, ginger cream, toasted pepitas, thyme
                 </p>
                 <p class="price">
-                  $12.95
+                  €14.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <h4>Seared Scallop Carpaccio</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Thinly sliced scallops, yuzu vinaigrette, radish, edible flowers
                 </p>
                 <p class="price">
-                  $9.95
+                  €11.95
                 </p>
               </div><!-- Menu Item -->
 
@@ -367,67 +359,67 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-1.png" class="glightbox"><img src="static/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <h4>Royal French Toast</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Brioche, cinnamon custard, maple syrup, fresh berries
                 </p>
                 <p class="price">
-                  $5.95
+                  €10.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <h4>Smoked Salmon Omelette</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Free-range eggs, dill cream cheese, capers, toasted rye
                 </p>
                 <p class="price">
-                  $14.95
+                  €13.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <h4>Avocado Toast Royale</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Sourdough, smashed avocado, poached egg, chili flakes
                 </p>
                 <p class="price">
-                  $8.95
+                  €9.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>King’s Breakfast Platter</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Scrambled eggs, bacon, sausage, roasted potatoes, grilled tomato
                 </p>
                 <p class="price">
-                  $12.95
+                  €14.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Blueberry Ricotta Pancakes</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Fluffy pancakes, lemon zest, honey butter, blueberry compote
                 </p>
                 <p class="price">
-                  $12.95
+                  €11.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <h4>Chorizo Breakfast Burrito</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Spicy chorizo, scrambled eggs, cheddar, salsa, avocado
                 </p>
                 <p class="price">
-                  $9.95
+                  €12.95
                 </p>
               </div><!-- Menu Item -->
 
@@ -445,67 +437,67 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-1.png" class="glightbox"><img src="static/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <h4>Grilled Chicken Caesar</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Romaine, garlic croutons, Parmesan, house-made Caesar dressing
                 </p>
                 <p class="price">
-                  $5.95
+                  €13.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <h4>Truffle Mushroom Flatbread</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Wild mushrooms, truffle oil, mozzarella, arugula
                 </p>
                 <p class="price">
-                  $14.95
+                  €15.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <h4>Seared Tuna Niçoise</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Ahi tuna, green beans, olives, boiled egg, vinaigrette
                 </p>
                 <p class="price">
-                  $8.95
+                  €17.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Turkey Club Sandwich</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Roasted turkey, bacon, avocado, lettuce, tomato, sourdough
                 </p>
                 <p class="price">
-                  $12.95
+                  €14.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Quinoa Power Bowl</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Quinoa, roasted veggies, chickpeas, tahini dressing
                 </p>
                 <p class="price">
-                  $12.95
+                  €12.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <h4>Beef Brisket Sliders</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Slow-cooked brisket, coleslaw, pickles, brioche buns
                 </p>
                 <p class="price">
-                  $9.95
+                  €16.95
                 </p>
               </div><!-- Menu Item -->
 
@@ -523,67 +515,67 @@
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-1.png" class="glightbox"><img src="static/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Magnam Tiste</h4>
+                <h4>Filet Mignon</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    8oz beef tenderloin, red wine reduction, garlic mashed potatoes
                 </p>
                 <p class="price">
-                  $5.95
+                  €34.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Aut Luia</h4>
+                <h4>Regal Grilled Salmon</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Atlantic salmon, lemon herb glaze, asparagus, wild rice
                 </p>
                 <p class="price">
-                  $14.95
+                  €26.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Est Eligendi</h4>
+                <h4>Lamb Shank Osso Buco</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Braised lamb, saffron risotto, gremolata, roasted carrots
                 </p>
                 <p class="price">
-                  $8.95
+                  €29.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Truffle Gnocchi</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Handmade gnocchi, truffle cream sauce, sage, Parmesan
                 </p>
                 <p class="price">
-                  $12.95
+                  €22.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Eos Luibusdam</h4>
+                <h4>Duck Confit</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Slow-cooked duck leg, cherry gastrique, herbed polenta
                 </p>
                 <p class="price">
-                  $12.95
+                  €28.95
                 </p>
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
                 <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Laboriosam Direva</h4>
+                <h4>Stuffed Portobello</h4>
                 <p class="ingredients">
-                  Lorem, deren, trataro, filede, nerada
+                    Grilled portobello, spinach, feta, quinoa, tomato coulis
                 </p>
                 <p class="price">
-                  $9.95
+                  €19.95
                 </p>
               </div><!-- Menu Item -->
 
@@ -601,7 +593,7 @@
 
         <div class="section-header">
           <h2>Testimonials</h2>
-          <p>What Are They <span>Saying About Us</span></p>
+          <p>What Our Guests Are <span>Raving About</span></p>
         </div>
 
         <div class="slides-1 swiper" data-aos="fade-up" data-aos-delay="100">
@@ -614,11 +606,12 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        I’ve never had such a perfect meal! The attention to detail in every dish was incredible, 
+                        and the ambiance made it feel like a special occasion, even on a Tuesday night.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
+                      <h3>James Patel</h3>
+                      <h4>Business Traveler</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
@@ -638,11 +631,11 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                        The desserts alone are worth the visit! Paired with stellar service and a cozy vibe, King’s Cuisine has won me over. My family’s already planning our next dinner here.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Sara Wilsson</h3>
-                      <h4>Designer</h4>
+                      <h3>Lisa Nguyen</h3>
+                      <h4>Dessert Lover</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
@@ -662,11 +655,11 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        From the warm welcome to the last sip of wine, perfection! The staff anticipated our every need, and the food was a symphony of flavors. Truly a regal dining experience.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
+                      <h3>Clara Dubois</h3>
+                      <h4>Regular Patron</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
@@ -686,11 +679,11 @@
                     <div class="testimonial-content">
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
-                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                        A hidden treasure! The seasonal tasting event was a culinary journey—each course surprised and delighted us. King’s Cuisine is now my top recommendation for food lovers.
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
-                      <h3>John Larson</h3>
-                      <h4>Entrepreneur</h4>
+                      <h3>Mark Reynolds</h3>
+                      <h4>Culinary Blogger</h4>
                       <div class="stars">
                         <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                       </div>
@@ -716,7 +709,7 @@
 
         <div class="section-header">
           <h2>Events</h2>
-          <p>Share <span>Your Moments</span> In Our Restaurant</p>
+          <p>Celebrate <span>Your Moments</span> With Us</p>
         </div>
 
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
@@ -724,25 +717,27 @@
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/img/events-1.jpg)">
               <h3>Custom Parties</h3>
-              <div class="price align-self-start">$99</div>
+              <div class="price align-self-start">€99</div>
               <p class="description">
-                Quo corporis voluptas ea ad. Consectetur inventore sapiente ipsum voluptas eos omnis facere. Enim facilis veritatis id est rem repudiandae nulla expedita quas.
+                Host an event tailored to your vision. Our team crafts a personalized experience with exquisite cuisine and elegant surroundings—perfect for any occasion.
               </p>
             </div><!-- End Event item -->
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/img/events-2.jpg)">
-              <h3>Private Parties</h3>
-              <div class="price align-self-start">$289</div>
+              <h3>Private Dining Experiences</h3>
+              <div class="price align-self-start">€289</div>
               <p class="description">
-                In delectus sint qui et enim. Et ab repudiandae inventore quaerat doloribus. Facere nemo vero est ut dolores ea assumenda et. Delectus saepe accusamus aspernatur.
+                Escape the ordinary with an exclusive private dining event. Enjoy a secluded space, a custom-curated menu, and impeccable service—perfect for business dinners, 
+                anniversaries, or a special night with loved ones. Privacy meets perfection here.
               </p>
             </div><!-- End Event item -->
 
             <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/img/events-3.jpg)">
               <h3>Birthday Parties</h3>
-              <div class="price align-self-start">$499</div>
+              <div class="price align-self-start">€499</div>
               <p class="description">
-                Laborum aperiam atque omnis minus omnis est qui assumenda quos. Quis id sit quibusdam. Esse quisquam ducimus officia ipsum ut quibusdam maxime. Non enim perspiciatis.
+                Celebrate another trip around the sun in royal style. Our birthday packages offer festive menus, delightful desserts, and a vibrant atmosphere to make your day unforgettable. 
+                Let us handle the details while you bask in the joy of the occasion.
               </p>
             </div><!-- End Event item -->
 
@@ -776,9 +771,9 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Master Chef</span>
-                <p>Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                <h4>Chef Walter Evans</h4>
+                <span>Executive Chef</span>
+                <p>With over 20 years of experience, Chef Walter brings artistry and innovation to every dish, turning fresh ingredients into regal masterpieces.</p>
               </div>
             </div>
           </div><!-- End Chefs Member -->
@@ -795,9 +790,10 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Patissier</span>
-                <p>Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                <h4>Chef Sarah Lin</h4>
+                <span>Pastry Chef</span>
+                <p>A maestro of desserts, Chef Sarah transforms sugar and spice into edible art. Trained in Paris, 
+                    her delicate pastries and decadent cakes bring a sweet finish to every meal—each bite a testament to her meticulous craft.</p>
               </div>
             </div>
           </div><!-- End Chefs Member -->
@@ -814,9 +810,10 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>Cook</span>
-                <p>Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                <h4>Chef Miguel Torres</h4>
+                <span>Sous Chef</span>
+                <p>Chef Miguel’s fiery passion shines in every dish he prepares. With a flair for bold flavors and a knack for precision, 
+                    he supports the kitchen with expertise honed over 15 years, ensuring every plate is a delight.</p>
               </div>
             </div>
           </div><!-- End Chefs Member -->
@@ -923,25 +920,26 @@
         <p>Need Help? <span>Contact Us</span></p>
       </div>
       <div class="mb-3">
-        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d2.294481!3d48.858844!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d1f0e6b497%3A0x76cc3e7e5bc83c39!2sEiffel+Tower!5e0!3m2!1sen!2sfr!4v1582929272061
+" frameborder="0" allowfullscreen></iframe>
       </div>
       <div class="row gy-4">
         <div class="col-md-6">
           <div class="info-item d-flex align-items-center">
             <i class="icon bi bi-map flex-shrink-0"></i>
-            <div><h3>Our Address</h3><p>A108 Adam Street, New York, NY 535022</p></div>
+            <div><h3>Our Address</h3><p> Champ de Mars, 5 Avenue Anatole France, 75007 Paris, France</p></div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="info-item d-flex align-items-center">
             <i class="icon bi bi-envelope flex-shrink-0"></i>
-            <div><h3>Email Us</h3><p>contact@example.com</p></div>
+            <div><h3>Email Us</h3><p>contact@kingscuisine.com</p></div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="info-item d-flex align-items-center">
             <i class="icon bi bi-telephone flex-shrink-0"></i>
-            <div><h3>Call Us</h3><p>+1 5589 55488 55</p></div>
+            <div><h3>Call Us</h3><p>+33 0658 4219 33</p></div>
           </div>
         </div>
         <div class="col-md-6">
@@ -992,8 +990,8 @@
           <div>
             <h4>Address</h4>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022 - US<br>
+              Champ de Mars, 5 Avenue Anatole France <br>
+              75007 Paris - FR<br>
             </p>
           </div>
 
@@ -1004,8 +1002,8 @@
           <div>
             <h4>Reservations</h4>
             <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Phone:</strong> +33 0658 4219 33<br>
+              <strong>Email:</strong> info@kingscuisine.com<br>
             </p>
           </div>
         </div>
@@ -1043,7 +1041,6 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/ -->
-        Designed by <a href="#">Kingsley Codes</a>
       </div>
     </div>
 
