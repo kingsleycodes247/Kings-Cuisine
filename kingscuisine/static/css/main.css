@@ -97,6 +97,44 @@ section {
   color: var(--color-primary);
 }
 
+.theme-toggle-btn {
+  background: none;
+  border: 1px solid #ccc; /* Light border in light mode */
+  border-radius: 50%; /* Circular button */
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.theme-toggle-btn i {
+  font-size: 1.2rem;
+  color: #666; /* Subtle gray in light mode */
+}
+
+.theme-toggle-btn:hover {
+  border-color: #f0c040;
+  background-color: rgba(240, 192, 64, 0.1);
+}
+
+.dark-theme .theme-toggle-btn {
+  border-color: #f0c040; /* Gold border in dark mode */
+}
+
+.dark-theme .theme-toggle-btn i {
+  color: #f0c040; /* Gold icon in dark mode */
+}
+
+@media (max-width: 991px) {
+  .navbar .theme-toggle-btn {
+      margin: 10px 0; /* Spacing in mobile menu */
+      background: none;
+  }
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
