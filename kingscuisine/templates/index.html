@@ -9,6 +9,8 @@
   <title>King's Cuisine - Home</title>
   <meta name="description" content="King's Cuisine - Best [Restaurant] in [France]">
   <meta name="keywords" content="restaurant, [cuisine], [location], booking">
+  
+  <meta property="og:image" content="{% static 'img/hero-img.png' %}">
 
   <!-- Favicons -->
   <link href="{% static 'img/logo.png' %}" rel="icon">
@@ -106,7 +108,7 @@
         </div>
 
         <div class="row gy-4">
-          <div class="col-lg-7 position-relative about-img" style="background-image: url(static/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+          <div class="col-lg-7 position-relative about-img" style="background-image: url({% static 'img/about.jpg' %});" data-aos="fade-up" data-aos-delay="150">
             <div class="call-us position-absolute">
               <h4>Book a Table</h4>
               <p>+33 0658 4219 33</p>
@@ -283,7 +285,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-2.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-2.png' %}" class="menu-img img-fluid" alt=""></a>
                 <h4>Regal Grilled Salmon</h4>
                 <p class="ingredients">
                     Fresh Atlantic salmon, lemon herb glaze, roasted vegetables
@@ -294,7 +296,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-3.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-3.png' %}" class="menu-img img-fluid" alt=""></a>
                 <h4>Crab Cake Bites</h4>
                 <p class="ingredients">
                     Lump crab, citrus aioli, microgreens, roasted red pepper coulis
@@ -305,8 +307,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Golden Truffle Bruschetta</h4>
+                <a href="{% static 'img/menu/menu-item-4.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-4.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Golden Truffle Bruschetta</h4>
                 <p class="ingredients">
                     Toasted artisan bread, truffle cream, heirloom tomatoes, fresh basil
                 </p>
@@ -316,8 +317,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Spiced Butternut Squash Soup</h4>
+                <a href="{% static 'img/menu/menu-item-5.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-5.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Spiced Butternut Squash Soup</h4>
                 <p class="ingredients">
                     Roasted squash, ginger cream, toasted pepitas, thyme
                 </p>
@@ -327,8 +327,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
-                <h4>Seared Scallop Carpaccio</h4>
+                <a href="{% static 'img/menu/menu-item-6.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-6.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <p class="ingredients">
                     Thinly sliced scallops, yuzu vinaigrette, radish, edible flowers
                 </p>
@@ -350,7 +349,7 @@
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-1.png" class="glightbox"><img src="static/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-1.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-1.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Royal French Toast</h4>
                 <p class="ingredients">
                     Brioche, cinnamon custard, maple syrup, fresh berries
@@ -361,7 +360,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-2.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-2.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Smoked Salmon Omelette</h4>
                 <p class="ingredients">
                     Free-range eggs, dill cream cheese, capers, toasted rye
@@ -372,7 +371,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-3.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-3.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Avocado Toast Royale</h4>
                 <p class="ingredients">
                     Sourdough, smashed avocado, poached egg, chili flakes
@@ -383,7 +382,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-4.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-4.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>King’s Breakfast Platter</h4>
                 <p class="ingredients">
                     Scrambled eggs, bacon, sausage, roasted potatoes, grilled tomato
@@ -394,7 +393,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-5.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-5.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Blueberry Ricotta Pancakes</h4>
                 <p class="ingredients">
                     Fluffy pancakes, lemon zest, honey butter, blueberry compote
@@ -405,7 +404,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-6.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-6.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Chorizo Breakfast Burrito</h4>
                 <p class="ingredients">
                     Spicy chorizo, scrambled eggs, cheddar, salsa, avocado
@@ -428,7 +427,7 @@
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-1.png" class="glightbox"><img src="static/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-1.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-1.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Grilled Chicken Caesar</h4>
                 <p class="ingredients">
                     Romaine, garlic croutons, Parmesan, house-made Caesar dressing
@@ -439,7 +438,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-2.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-2.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Truffle Mushroom Flatbread</h4>
                 <p class="ingredients">
                     Wild mushrooms, truffle oil, mozzarella, arugula
@@ -450,7 +449,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-3.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-3.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Seared Tuna Niçoise</h4>
                 <p class="ingredients">
                     Ahi tuna, green beans, olives, boiled egg, vinaigrette
@@ -461,7 +460,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-4.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-4.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Turkey Club Sandwich</h4>
                 <p class="ingredients">
                     Roasted turkey, bacon, avocado, lettuce, tomato, sourdough
@@ -472,7 +471,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-5.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-5.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Quinoa Power Bowl</h4>
                 <p class="ingredients">
                     Quinoa, roasted veggies, chickpeas, tahini dressing
@@ -483,7 +482,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-6.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-6.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Beef Brisket Sliders</h4>
                 <p class="ingredients">
                     Slow-cooked brisket, coleslaw, pickles, brioche buns
@@ -506,7 +505,7 @@
             <div class="row gy-5">
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-1.png" class="glightbox"><img src="static/img/menu/menu-item-1.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-1.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-1.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Filet Mignon</h4>
                 <p class="ingredients">
                     8oz beef tenderloin, red wine reduction, garlic mashed potatoes
@@ -517,7 +516,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-2.png" class="glightbox"><img src="static/img/menu/menu-item-2.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-2.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-2.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Regal Grilled Salmon</h4>
                 <p class="ingredients">
                     Atlantic salmon, lemon herb glaze, asparagus, wild rice
@@ -528,7 +527,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-3.png" class="glightbox"><img src="static/img/menu/menu-item-3.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-3.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-3.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Lamb Shank Osso Buco</h4>
                 <p class="ingredients">
                     Braised lamb, saffron risotto, gremolata, roasted carrots
@@ -539,7 +538,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-4.png" class="glightbox"><img src="static/img/menu/menu-item-4.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-4.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-4.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Truffle Gnocchi</h4>
                 <p class="ingredients">
                     Handmade gnocchi, truffle cream sauce, sage, Parmesan
@@ -550,7 +549,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-5.png" class="glightbox"><img src="static/img/menu/menu-item-5.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-5.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-5.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Duck Confit</h4>
                 <p class="ingredients">
                     Slow-cooked duck leg, cherry gastrique, herbed polenta
@@ -561,7 +560,7 @@
               </div><!-- Menu Item -->
 
               <div class="col-lg-4 menu-item">
-                <a href="static/img/menu/menu-item-6.png" class="glightbox"><img src="static/img/menu/menu-item-6.png" class="menu-img img-fluid" alt=""></a>
+                <a href="{% static 'img/menu/menu-item-6.png' %}" class="glightbox"><img src="{% static 'img/menu/menu-item-6.png' %}" class="menu-img img-fluid" alt=""></a>                <h4>Seared Scallop Carpaccio</h4>
                 <h4>Stuffed Portobello</h4>
                 <p class="ingredients">
                     Grilled portobello, spinach, feta, quinoa, tomato coulis
@@ -610,8 +609,7 @@
                     </div>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <img src="static/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
+                    <img src="{% static 'img/testimonials/testimonials-1.jpg' %}" class="img-fluid testimonial-img" alt="">                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -634,8 +632,7 @@
                     </div>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <img src="static/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
+                    <img src="{% static 'img/testimonials/testimonials-2.jpg' %}" class="img-fluid testimonial-img" alt="">                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -658,8 +655,7 @@
                     </div>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <img src="static/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
+                    <img src="{% static 'img/testimonials/testimonials-3.jpg' %}" class="img-fluid testimonial-img" alt="">                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -682,8 +678,7 @@
                     </div>
                   </div>
                   <div class="col-lg-2 text-center">
-                    <img src="static/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
+                    <img src="{% static 'img/testimonials/testimonials-4.jpg' %}" class="img-fluid testimonial-img" alt="">                  </div>
                 </div>
               </div>
             </div><!-- End testimonial item -->
@@ -707,16 +702,14 @@
         <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
           <div class="swiper-wrapper">
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/img/events-1.jpg)">
-              <h3>Custom Parties</h3>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url({% static 'img/events-1.jpg' %})">              <h3>Custom Parties</h3>
               <div class="price align-self-start">€99</div>
               <p class="description">
                 Host an event tailored to your vision. Our team crafts a personalized experience with exquisite cuisine and elegant surroundings—perfect for any occasion.
               </p>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/img/events-2.jpg)">
-              <h3>Private Dining Experiences</h3>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url({% static 'img/events-2.jpg' %})">              <h3>Private Dining Experiences</h3>
               <div class="price align-self-start">€289</div>
               <p class="description">
                 Escape the ordinary with an exclusive private dining event. Enjoy a secluded space, a custom-curated menu, and impeccable service—perfect for business dinners, 
@@ -724,8 +717,7 @@
               </p>
             </div><!-- End Event item -->
 
-            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url(static/img/events-3.jpg)">
-              <h3>Birthday Parties</h3>
+            <div class="swiper-slide event-item d-flex flex-column justify-content-end" style="background-image: url({% static 'img/events-3.jpg' %})">              <h3>Birthday Parties</h3>
               <div class="price align-self-start">€499</div>
               <p class="description">
                 Celebrate another trip around the sun in royal style. Our birthday packages offer festive menus, delightful desserts, and a vibrant atmosphere to make your day unforgettable. 
@@ -754,7 +746,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="chef-member">
               <div class="member-img">
-                <img src="static/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+                <img src="{% static 'img/chefs/chefs-1.jpg' %}" class="img-fluid" alt="">  
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -773,7 +765,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="chef-member">
               <div class="member-img">
-                <img src="static/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+                <img src="{% static 'img/chefs/chefs-2.jpg' %}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -793,7 +785,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="chef-member">
               <div class="member-img">
-                <img src="static/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+                <img src="{% static 'img/chefs/chefs-3.jpg' %}" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -889,14 +881,14 @@
 
         <div class="gallery-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-1.jpg"><img src="static/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-2.jpg"><img src="static/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-3.jpg"><img src="static/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-4.jpg"><img src="static/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-5.jpg"><img src="static/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-6.jpg"><img src="static/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-7.jpg"><img src="static/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="assets/img/gallery/gallery-8.jpg"><img src="static/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-1.jpg' %}"><img src="{% static 'img/gallery/gallery-1.jpg' %}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-2.jpg' %}"><img src="{% static 'img/gallery/gallery-2.jpg' %}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-3.jpg' %}"><img src="{% static 'img/gallery/gallery-3.jpg' %}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-4.jpg' %}"><img src="{% static 'img/gallery/gallery-4.jpg' %}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-5.jpg' %}"><img src="{% static 'img/gallery/gallery-5.jpg' %}" class="img-fluid" alt=""></a></div>            
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-6.jpg' %}"><img src="{% static 'img/gallery/gallery-6.jpg' %}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-7.jpg' %}"><img src="{% static 'img/gallery/gallery-7.jpg' %}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery" href="{% static 'img/gallery/gallery-8.jpg' %}"><img src="{% static 'img/gallery/gallery-8.jpg' %}" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
