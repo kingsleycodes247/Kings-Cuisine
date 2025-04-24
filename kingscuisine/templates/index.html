@@ -11,8 +11,8 @@
   <meta name="keywords" content="restaurant, [cuisine], [location], booking">
 
   <!-- Favicons -->
-  <link href="{% static 'img/logo.png' %}" rel="icon">
-  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+  <link href="{% static 'static/img/logo.png' %}" rel="icon">
+  <link href="{% static 'static/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,15 +20,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Amatic+SC:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
-  <link href="{% static 'vendor/aos/aos.css' %}" rel="stylesheet">
-  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
-  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'static/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'static/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'static/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'static/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'static/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="{% static 'css/main.css' %}" rel="stylesheet">
-  <link href="{% static 'css/dark-theme.css' %}" rel="stylesheet">
+  <link href="{% static 'static/css/main.css' %}" rel="stylesheet">
+  <link href="{% static 'static/css/dark-theme.css' %}" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Yummy
@@ -88,7 +88,7 @@
           </div>
         </div>
         <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-          <img src="static/img/hero-img.png" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
+          <img src="{% static 'static/img/hero-img.png' %}" class="img-fluid" alt="" data-aos="zoom-out" data-aos-delay="300">
         </div>
       </div>
     </div>
@@ -123,7 +123,7 @@
               <p>Our commitment to culinary excellence and genuine care shines through in every bite. Join us to taste the difference that dedication makes.</p>
 
               <div class="position-relative mt-4">
-                <img src="static/img/about-2.jpg" class="img-fluid" alt="">
+                <img src="{% static 'static/img/about-2.jpg' %}" class="img-fluid" alt="">
                 <a href="https://youtu.be/XyRZgKd5shs?si=_hraPljgIPZkjZTt" class="glightbox play-btn"></a>
               </div>
             </div>
