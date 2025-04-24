@@ -25,7 +25,7 @@ SECRET_KEY = '2630tsl4k*ijvmahom3=e1i(_)o+3e0n9n-44q-wa9^0pos=6h'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['.onrender.com', 'localhost', '127.0.0.1', 'https://kings-cuisine.onrender.com']
 
 
 # Application definition
